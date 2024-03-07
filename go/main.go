@@ -160,7 +160,7 @@ func Ex07() {
 
 /*********** Ex 07 **********/
 
-/*********** Ex 07 **********/
+/*********** Ex 08 **********/
 func verifyConsecutivesDuplicates(list []string) []string {
 	var l []string
 
@@ -186,7 +186,10 @@ func Ex08() {
 	fmt.Println(list, " un-duplicated: ", verifyConsecutivesDuplicates(list))
 }
 
-/*********** Ex 07 **********/
+/*********** Ex 08 **********/
+
+/*********** Ex 09 **********/
+/*********** Ex 09 **********/
 func main() {
 	Ex08()
 }

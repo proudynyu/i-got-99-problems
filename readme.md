@@ -2,9 +2,15 @@
 
 Based on [99 OCaml](https://v2.ocaml.org/learn/tutorials/99problems.html)
 
+I will be implementing per language. 
+Some time i try to reimplement a method that the language has. 
+Other time, i will just use the methods and go for it.
+
 # 1 - Write a function last : 'a list -> 'a option that returns the last element of a list. (easy)
 
-**DONE**
+Go: :check:
+JS: :waiting:
+Lua: :waiting:
 
 ```ocaml
 # last ["a" ; "b" ; "c" ; "d"];;
@@ -15,7 +21,9 @@ Based on [99 OCaml](https://v2.ocaml.org/learn/tutorials/99problems.html)
 
 # 2. Find the last but one (last and penultimate) elements of a list. (easy)
 
-**DONE**
+Go: :check:
+JS: :waiting:
+Lua: :waiting:
 
 ```ocaml
 # last_two ["a"; "b"; "c"; "d"];;
@@ -26,7 +34,9 @@ Based on [99 OCaml](https://v2.ocaml.org/learn/tutorials/99problems.html)
 
 # 3. Find the K'th element of a list. (easy)
 
-**DONE**
+Go: :check:
+JS: :waiting:
+Lua: :waiting:
 
 ```ocaml
 # at 3 ["a"; "b"; "c"; "d"; "e"];;
@@ -37,7 +47,9 @@ Based on [99 OCaml](https://v2.ocaml.org/learn/tutorials/99problems.html)
 
 # 4. Find the number of elements of a list. (easy)
 
-**DONE**
+Go: :check:
+JS: :waiting:
+Lua: :waiting:
 
 ```ocaml
 # length ["a"; "b"; "c"];;
@@ -50,7 +62,9 @@ Based on [99 OCaml](https://v2.ocaml.org/learn/tutorials/99problems.html)
 
 - OCaml standard library has List.rev but we ask that you reimplement it.
 
-**DONE**
+Go: :check:
+JS: :waiting:
+Lua: :waiting:
 
 ```ocaml
 # rev ["a"; "b"; "c"];;
@@ -60,7 +74,9 @@ Based on [99 OCaml](https://v2.ocaml.org/learn/tutorials/99problems.html)
 # 6. Find out whether a list is a palindrome. (easy)
 HINT: a palindrome is its own reverse.
 
-**DONE**
+Go: :check:
+JS: :waiting:
+Lua: :waiting:
 
 ```ocaml
 # is_palindrome ["x"; "a"; "m"; "a"; "x"];;
@@ -71,7 +87,9 @@ HINT: a palindrome is its own reverse.
 
 # 7. Flatten a nested list structure. (medium)
 
-**DONE**
+Go: :check:
+JS: :waiting:
+Lua: :waiting:
 
 ```ocaml
 # (* There is no nested list type in OCaml, so we need to define one
@@ -85,7 +103,20 @@ type 'a node = One of 'a | Many of 'a node list
 
 # 8. Eliminate consecutive duplicates of list elements. (medium)
 
+Go: :check:
+JS: :waiting:
+Lua: :waiting:
+
 ```ocaml
 # compress ["a"; "a"; "a"; "a"; "b"; "c"; "c"; "a"; "a"; "d"; "e"; "e"; "e"; "e"];;
 - : string list = ["a"; "b"; "c"; "a"; "d"; "e"]
+```
+
+# 9. Pack consecutive duplicates of list elements into sublists. (medium)
+
+```ocaml
+# pack ["a"; "a"; "a"; "a"; "b"; "c"; "c"; "a"; "a"; "d"; "d"; "e"; "e"; "e"; "e"];;
+- : string list list =
+[["a"; "a"; "a"; "a"]; ["b"]; ["c"; "c"]; ["a"; "a"]; ["d"; "d"];
+ ["e"; "e"; "e"; "e"]]
 ```
