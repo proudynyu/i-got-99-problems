@@ -5,31 +5,6 @@ import (
 	"strings"
 )
 
-/*********** Ex 01 **********/
-func getLastFromArrayString(arr []string) string {
-	if len(arr) == 0 {
-		return ""
-	}
-
-	return arr[len(arr)-1]
-}
-
-func Ex01() {
-	test_1 := []string{}
-	test_2 := []string{"a", "b", "c", "d"}
-	test_3 := []string{"a"}
-
-	c := getLastFromArrayString(test_1)
-	s := getLastFromArrayString(test_2)
-	t := getLastFromArrayString(test_3)
-
-	fmt.Println(c)
-	fmt.Println(s)
-	fmt.Println(t)
-}
-
-/*********** Ex 01 **********/
-
 /*********** Ex 02 **********/
 func getLastButOneFromStringArray(arr []string) (string, string) {
 	if len(arr) == 0 {
