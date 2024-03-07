@@ -1,4 +1,4 @@
-# 99 Problems in Go
+# 99 Problems
 
 Based on [99 OCaml](https://v2.ocaml.org/learn/tutorials/99problems.html)
 
@@ -8,9 +8,9 @@ Other time, i will just use the methods and go for it.
 
 # 1 - Write a function last : 'a list -> 'a option that returns the last element of a list. (easy)
 
-Go: :check:
-JS: :waiting:
-Lua: :waiting:
+- [x] Go
+- [ ] JS
+- [ ] Lua
 
 ```ocaml
 # last ["a" ; "b" ; "c" ; "d"];;
@@ -21,9 +21,9 @@ Lua: :waiting:
 
 # 2. Find the last but one (last and penultimate) elements of a list. (easy)
 
-Go: :check:
-JS: :waiting:
-Lua: :waiting:
+- [x] Go
+- [ ] JS
+- [ ] Lua
 
 ```ocaml
 # last_two ["a"; "b"; "c"; "d"];;
@@ -34,9 +34,9 @@ Lua: :waiting:
 
 # 3. Find the K'th element of a list. (easy)
 
-Go: :check:
-JS: :waiting:
-Lua: :waiting:
+- [x] Go
+- [ ] JS
+- [ ] Lua
 
 ```ocaml
 # at 3 ["a"; "b"; "c"; "d"; "e"];;
@@ -47,9 +47,9 @@ Lua: :waiting:
 
 # 4. Find the number of elements of a list. (easy)
 
-Go: :check:
-JS: :waiting:
-Lua: :waiting:
+- [x] Go
+- [ ] JS
+- [ ] Lua
 
 ```ocaml
 # length ["a"; "b"; "c"];;
@@ -62,9 +62,9 @@ Lua: :waiting:
 
 - OCaml standard library has List.rev but we ask that you reimplement it.
 
-Go: :check:
-JS: :waiting:
-Lua: :waiting:
+- [x] Go
+- [ ] JS
+- [ ] Lua
 
 ```ocaml
 # rev ["a"; "b"; "c"];;
@@ -74,9 +74,9 @@ Lua: :waiting:
 # 6. Find out whether a list is a palindrome. (easy)
 HINT: a palindrome is its own reverse.
 
-Go: :check:
-JS: :waiting:
-Lua: :waiting:
+- [x] Go
+- [ ] JS
+- [ ] Lua
 
 ```ocaml
 # is_palindrome ["x"; "a"; "m"; "a"; "x"];;
@@ -87,9 +87,9 @@ Lua: :waiting:
 
 # 7. Flatten a nested list structure. (medium)
 
-Go: :check:
-JS: :waiting:
-Lua: :waiting:
+- [x] Go
+- [ ] JS
+- [ ] Lua
 
 ```ocaml
 # (* There is no nested list type in OCaml, so we need to define one
@@ -103,9 +103,9 @@ type 'a node = One of 'a | Many of 'a node list
 
 # 8. Eliminate consecutive duplicates of list elements. (medium)
 
-Go: :check:
-JS: :waiting:
-Lua: :waiting:
+- [x] Go
+- [ ] JS
+- [ ] Lua
 
 ```ocaml
 # compress ["a"; "a"; "a"; "a"; "b"; "c"; "c"; "a"; "a"; "d"; "e"; "e"; "e"; "e"];;
