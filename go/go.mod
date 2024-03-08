@@ -1,3 +1,3 @@
-module github.com/proudynyu/i_got_99_problems/go
+module example.com/99_problems
 
 go 1.20
